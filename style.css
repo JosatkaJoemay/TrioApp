@@ -1,0 +1,114 @@
+header {
+    position: absolute;
+width: 1440px;
+height: 67px;
+left: 0px;
+top: 0px;
+background: rgba(255, 255, 255, 0.8);
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.03);
+}
+
+.tittle {
+    position: absolute;
+    width: 190px;
+    height: 60px;
+    left: 34px;
+    top: 12px;
+    font-family: 'Graphik';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 44px;
+}
+
+nav {
+    font-family: Gotham;
+    font-size: 12px;
+    font-weight: 400px;
+    line-height: 11.48px;
+}
+
+.nav1 {
+position: absolute;
+width: 81px;
+height: 11px;
+left: 491px;
+top: 28px;
+}
+
+.nav2 {
+position: absolute;
+width: 52px;
+height: 11px;
+left: 607px;
+top: 28px;
+}
+
+.nav3 {
+position: absolute;
+width: 33px;
+height: 11px;
+top: 28px;
+left: 691px;
+}
+
+.nav4 {
+position: absolute;
+width: 98px;
+height: 11px;
+top: 28px;
+left: 755px;
+} 
+
+.nav5 {
+position: absolute;
+width: 57px;
+height: 11px;
+top: 28px;
+left: 889px;
+}
+
+.button-language {
+position: absolute;
+width: 32px;
+height: 11px;
+top: 28px;
+left: 1172px;
+font-family: 'Gotham';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 11px;
+text-align: right;
+color: #171E25;
+
+}
+
+.zayavka {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 14px 32px;
+    
+    position: absolute;
+    width: 173px;
+    height: 46px;
+    right: 35px;
+    top: 9px;
+    
+    background: #1A1A27;
+    border-radius: 8px;
+}
+
+.zayavka-text {
+width: 98px;
+height: 20px;
+font-family: 'Gotham';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 20px;
+text-align: center;
+color: #FFFFFF;
+}
