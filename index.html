@@ -7,6 +7,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="style.css" rel="stylesheet">
     <title>TrioApp</title>
+    <style>
+        li {
+            list-style: none;
+            background: url(img/opp/oppicon.png) no-repeat 0 12px;
+            padding-left: 24px;
+        }
+    </style>
 </head>
 
 <body>
@@ -29,8 +36,9 @@
     <!-- Нужно ли ставить за место дива ниже секцию???-->
     <div class="main">
         <div class="main-info">
-            <div class="main-info__title">Готовое приложение<br> для магазинов<br> и ресторанов</div>
-            <div class="main-info__subtitle">Программа лояльности, интеграция с IKKO,<br> 1C и сервисами доставки.
+            <div class="main-info__title title">Готовое приложение<br> для магазинов<br> и ресторанов</div>
+            <div class="main-info__subtitle subtitle">Программа лояльности, интеграция с IKKO,<br> 1C и сервисами
+                доставки.
                 Быстрый
                 запуск<br> без комиссии за заказ.</div>
             <div class="main-info__button">
@@ -42,9 +50,83 @@
         <img src="img/main/IphoneMenu.png" class="main__iphone-pic">
     </div>
     <div class="delivery">
-        <div class="delivery-background">
-
+        <img src="img/delivery/iphone1.png" class="delivery__phone"></img>
+        <div class="delivery__title title">Приложение для заказа<br> и доставки с возможностью<br> стилизации под ваш
+            бренд<br> и бизнес-процессы</div>
+        <div class="delivery__subtitle subtitle">Всегда правильные цены<br> и наличие на сайте и в приложении, время и
+            стоимость доставки, быстрая<br> оплата сохранённой картами. Заказы поступают сразу в<br> вашу 1С или
+            iiko</div>
+        <div class="delivery__icons">
+            <img src="img/delivery/iiko.png" class="delivery__icon1"></img>
+            <img src="img/delivery/Applepay.png" class="delivery__icon2"></img>
+            <img src="img/delivery/gpay.png" class="delivery__icon3"></img>
+            <img src="img/delivery/yandex.png" class="delivery__icon4"></img>
+            <div class="delivery__icon50"></div>
+            <img src="img/delivery/blogo.png" class="delivery__icon5"></img>
         </div>
+    </div>
+    <div class="opp">
+        <div class="opp__title title">Возможности TrioApp</div>
+        <div class="opp__subtitle title">Ни одной лишней функции. Только простые и удобные<br> инструменты заказа для
+            ваших клиентов</div>
+        <div class="opp__list">
+            <div class="opp__column1">
+                <!--Как-то наверняка можно не прописывать каждой строчке её пиксельное место же? Получается огромное количество классов на каждую строчку, думаю, что это засоряет код. Пытался вывести все общее в отдельный класс. Может надо -->
+                <ul class="oop__title1 title">1. Каталог товаров
+                    <li class="oop__sublist subtitle">Неограниченная вложенность категорий </li>
+                    <li class="oop__sublist subtitle">Управление данными товаров</li>
+                </ul>
+            </div>
+            <div class="opp__blacksq1">
+                <img src="/img/opp/1.png" alt="opp1" class="opp__img1">
+            </div>
+            <div class="opp__column2">
+                <ul class="oop__title2 title">2. Выбор локации
+                    <li class="oop__sublist subtitle">Определение локации клиента </li>
+                    <li class="oop__sublist subtitle">Передача данных в сервис доставки</li>
+                </ul>
+            </div>
+            <div class="opp__blacksq2">
+                <img src="/img/opp/2.png" alt="opp2" class="opp__img2">
+            </div>
+            <div class="opp__column3">
+                <ul class="oop__title3 title">3. Оформление заказа
+                    <li class="oop__sublist subtitle">Простая регистрация для клиента </li>
+                    <li class="oop__sublist subtitle">Быстрый заказ на сайте или в приложении</li>
+                </ul>
+            </div>
+            <div class="opp__blacksq3">
+                <img src="/img/opp/3.png" alt="opp3" class="opp__img3">
+            </div>
+            <div class="opp__column4">
+                <ul class="oop__title4 title">4. Бонусная система
+                    <li class="oop__sublist subtitle">Поддержка промокодов </li>
+                    <li class="oop__sublist subtitle">Начисление бонусов</li>
+                </ul>
+            </div>
+            <div class="opp__blacksq4">
+                <img src="/img/opp/4.png" alt="opp4" class="opp__img4">
+            </div>
+            <div class="opp__column5">
+                <ul class="oop__title5 title">5. Управление через 1С
+                    <li class="oop__sublist subtitle">Полная синхронизация данных </li>
+                    <li class="oop__sublist subtitle">Управление через плагин</li>
+                </ul>
+            </div>
+            <div class="opp__blacksq5">
+                <img src="/img/opp/5.png" alt="opp5" class="opp__img5">
+            </div>
+            <div class="opp__column6">
+                <ul class="oop__title6 title">6. Подстраиваемся под вас
+                    <li class="oop__sublist subtitle">Ваш фирменный стиль в приложении </li>
+                    <li class="oop__sublist subtitle">Адаптация под ваши бизнес-процессы</li>
+                </ul>
+            </div>
+            <div class="opp__blacksq6">
+                <img src="/img/opp/6.png" alt="opp6" class="opp__img6">
+            </div>
+        </div>
+        <div class="opp_app"></div>
     </div>
     <footer>
     </footer>

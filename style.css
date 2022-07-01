@@ -24,6 +24,18 @@
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.03);
 }
 
+.title {
+    font-family: 'Gotham';
+    font-style: normal;
+    font-weight: 700;
+}
+
+.subtitle {
+    font-family: 'Gotham';
+    font-style: normal;
+    font-weight: 500;
+}
+
 .tittle {
     position: absolute;
     width: 190px;
@@ -134,17 +146,12 @@ nav {
     font-family: 'Gotham';
 }
 
-.main-info {}
-
 .main-info__title {
     position: absolute;
     width: 583px;
     height: 157px;
     left: 141px;
     top: 210px;
-    font-family: 'Gotham';
-    font-style: normal;
-    font-weight: 700;
     font-size: 50px;
     line-height: 41px;
     color: #171E25;
@@ -156,9 +163,6 @@ nav {
     height: 51px;
     left: 142px;
     top: 377px;
-    font-family: 'Gotham';
-    font-style: normal;
-    font-weight: 400;
     font-size: 18px;
     line-height: 17px;
     color: #676F8A;
@@ -191,7 +195,6 @@ nav {
     font-size: 18px;
     line-height: 17px;
     color: #676F8A;
-
 }
 
 .main__iphone-pic {
@@ -202,7 +205,7 @@ nav {
     top: 164px;
 }
 
-.delivery-background {
+.delivery {
     position: absolute;
     width: 1443px;
     height: 790px;
@@ -211,3 +214,231 @@ nav {
     background: #1A1A27;
     border-radius: 20px;
 }
+
+.delivery__phone {
+    position: absolute;
+    width: 339px;
+    height: 652px;
+    left: 169px;
+    top: 75px;
+}
+
+.delivery__title {
+    position: absolute;
+    width: 635px;
+    height: 182px;
+    left: 720px;
+    top: 138px;
+    font-size: 40px;
+    line-height: 38px;
+    color: #FFFFFF;
+}
+
+.delivery__subtitle {
+    position: absolute;
+    width: 564px;
+    height: 92px;
+    left: 723px;
+    top: 349px;
+    font-size: 18px;
+    line-height: 22px;
+    color: #8D96A8;
+}
+
+.delivery__icon1 {
+    position: absolute;
+    width: 65px;
+    height: 65px;
+    left: 720px;
+    top: 490px;
+    background: url(/img/delivery/iiko.png);
+}
+
+.delivery__icon2 {
+    position: absolute;
+    width: 65px;
+    height: 65px;
+    left: 795px;
+    top: 490px;
+    background: url(/img/delivery/Applepay.png);
+}
+
+.delivery__icon3 {
+    position: absolute;
+    width: 65px;
+    height: 65px;
+    left: 870px;
+    top: 490px;
+    background: url(/img/delivery/gpay.png);
+}
+
+.delivery__icon4 {
+    position: absolute;
+    width: 65px;
+    height: 65px;
+    left: 945px;
+    top: 490px;
+    background: url(/img/delivery/yandex.png);
+}
+
+.delivery__icon50 {
+    position: absolute;
+    width: 65px;
+    height: 65px;
+    left: 1020px;
+    top: 490px;
+    background: #FFFFFF;
+    border-radius: 15px;
+}
+
+.delivery__icon5 {
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    left: 1030px;
+    top: 499px;
+    background: url(/img/delivery/blogo.png);
+}
+
+.opp__title {
+    position: absolute;
+    width: 601px;
+    height: 44px;
+    left: 419px;
+    top: 1676px;
+    font-size: 40px;
+    line-height: 41px;
+    text-align: center;
+    color: #171E25;
+}
+
+.opp__subtitle {
+    position: absolute;
+    width: 724px;
+    height: 50px;
+    left: 357px;
+    top: 1736px;
+    font-size: 16px;
+    line-height: 17px;
+    text-align: center;
+    color: #676F8A;
+}
+
+.oop__sublist {
+    position: absolute;
+    width: 352px;
+    height: 15px;
+    left: 174px;
+    top: 1993px;
+    font-size: 14px;
+    line-height: 130%;
+    color: #8D96A8;
+}
+
+.opp__column1 {
+    position: absolute;
+    width: 268px;
+    height: 44px;
+    left: 144px;
+    top: 1938px;
+}
+
+.oop__title1 {
+    position: absolute;
+    width: 268px;
+    height: 44px;
+    left: 144px;
+    top: 1938px;
+    font-size: 16px;
+    line-height: 41px;
+    color: #171E25;
+}
+
+.opp__img1 {
+    position: absolute;
+    left: 30%;
+    right: 86.6%;
+    top: 30%;
+    bottom: 75.07%;
+}
+
+.opp__blacksq1 {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    left: 144px;
+    top: 1848px;
+    background: #1A1A27;
+    border-radius: 20px;
+}
+
+.opp__column2 {
+    position: absolute;
+    left: 545px;
+    top: 1938px;
+}
+
+.oop__title2 {}
+
+.opp__img2 {
+    position: absolute;
+    left: 545px;
+    right: 58.9%;
+    top: 26%;
+    bottom: 75.06%;
+}
+
+.opp__blacksq2 {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    left: 545px;
+    top: 1848px;
+    background: #1A1A27;
+    border-radius: 20px;
+}
+
+.opp__column3 {}
+
+.oop__title3 {}
+
+.opp__img3 {}
+
+.opp__blacksq3 {}
+
+.opp__column4 {}
+
+.oop__title4 {}
+
+.opp__img4 {}
+
+.opp__blacksq4 {}
+
+.opp__column5 {
+    position: absolute;
+    width: 268px;
+    height: 44px;
+    left: 545px;
+    top: 2198px;
+    font-family: 'Gotham';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 41px;
+    color: #171E25;
+
+}
+
+.oop__title5 {}
+
+.opp__img5 {}
+
+.opp__blacksq5 {}
+
+.opp__column6 {}
+
+.oop__title6 {}
+
+.opp__img6 {}
+
+.opp__blacksq6 {}
