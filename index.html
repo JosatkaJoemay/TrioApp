@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="RU">
 
 <head>
     <meta charset="UTF-8">
@@ -10,8 +10,9 @@
     <style>
         li {
             list-style: none;
-            background: url(img/opp/oppicon.png) no-repeat 0 12px;
+            background: url(img/opp/oppicon.png) no-repeat 0 0;
             padding-left: 24px;
+            margin-bottom: 15px;
         }
     </style>
 </head>
@@ -20,6 +21,7 @@
     <div class="header">
         <!--Удалил ДИВ вокруг спана. Нужно ли вернуть?-->
         <span class="tittle">TrioApp</span>
+        <!--Навигацию делают через список? Надо будет потом опробовать-->
         <div class="nav">
             <nav>
                 <div class="nav1"><a href="#nav1">Возможности</a></div>
@@ -42,7 +44,7 @@
                 Быстрый
                 запуск<br> без комиссии за заказ.</div>
             <div class="main-info__button">
-                <span class="zayavka-text">Оставить заявку</span>
+                <a class="zayavka-text" href="#">Оставить заявку</a>
             </div>
             <div class="main-info__phone">или звоните: <a href="tel:+7-995-657-86-80">+7-995-657-86-80</a>
             </div>
@@ -126,7 +128,19 @@
                 <img src="/img/opp/6.png" alt="opp6" class="opp__img6">
             </div>
         </div>
-        <div class="opp_app"></div>
+        <div class="opp__app">
+            <img src="/img/opp/app/1.jpg" class="app__img1"></img>
+            <img src="/img/opp/app/2.jpg" class="app__img2"></img>
+            <img src="/img/opp/app/3.jpg" class="app__img3"></img>
+            <img src="/img/opp/app/4.jpg" class="app__img4"></img>
+        </div>
+    </div>
+    <div class="quote">
+        <div class="quote__div">
+            <blockquote class="quote__text title">Агрегаторы дают заказы, но диктуют условия.
+                <span class="quote-yellow">Мы даём независимость.</span>
+            </blockquote>
+        </div>
     </div>
     <footer>
     </footer>

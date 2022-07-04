@@ -2,17 +2,35 @@
     font-family: 'Gotham';
     font-style: normal;
     font-weight: 400;
-    font-display: swap;
-    src: url(fonts/gotham_medium.otf) format('opentype');
+    src: local(Gotham-Medium);
+    src: url(/fonts/gotham_medium_1.woff) format('woff');
+}
+
+@font-face {
+    font-family: 'Gotham';
+    font-style: normal;
+    font-weight: 700;
+    src: local(Gotham-Bold);
+    src: url(/fonts/gotham_bold.woff) format('woff');
 }
 
 @font-face {
     font-family: 'Graphik';
     font-style: normal;
-    font-weight: 400;
-    font-display: swap;
-    src: url(fonts/Graphik-Medium.ttf) format('opentype');
+    font-weight: 600;
+    src: url(fonts/Graphik-Medium_1.woff) format('woff');
 }
+
+body {
+    font-family: 'Gotham';
+    font-style: normal;
+    line-height: 1.2;
+    font-weight: normal;
+    color: #171E25;
+}
+
+
+/*Блок хэдэр начало*/
 
 .header {
     position: absolute;
@@ -133,14 +151,19 @@ nav {
     font-family: 'Gotham';
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 12px;
     line-height: 20px;
     text-align: center;
     color: #FFFFFF;
     flex: none;
     order: 0;
     flex-grow: 0;
+    text-decoration: none;
 }
+
+/*Блок хэдэр конец*/
+
+/*Блок главного экрана начало */
 
 .main {
     font-family: 'Gotham';
@@ -173,8 +196,7 @@ nav {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding: 14px 32px;
-    position: absolute;
+    margin: 502px 134px;
     width: 244px;
     height: 56px;
     right: 1052px;
@@ -204,6 +226,10 @@ nav {
     left: 827px;
     top: 164px;
 }
+
+/*Блок главного экрана конец */
+
+/*Блок доставки начало */
 
 .delivery {
     position: absolute;
@@ -300,6 +326,10 @@ nav {
     background: url(/img/delivery/blogo.png);
 }
 
+/*Блок доставки конец*/
+
+/*Блок возможностей начало*/
+
 .opp__title {
     position: absolute;
     width: 601px;
@@ -325,9 +355,8 @@ nav {
 }
 
 .oop__sublist {
-    position: absolute;
     width: 352px;
-    height: 15px;
+    height: 17px;
     left: 174px;
     top: 1993px;
     font-size: 14px;
@@ -344,7 +373,6 @@ nav {
 }
 
 .oop__title1 {
-    position: absolute;
     width: 268px;
     height: 44px;
     left: 144px;
@@ -352,6 +380,7 @@ nav {
     font-size: 16px;
     line-height: 41px;
     color: #171E25;
+    padding: 0 0 0 0;
 }
 
 .opp__img1 {
@@ -378,11 +407,16 @@ nav {
     top: 1938px;
 }
 
-.oop__title2 {}
+.oop__title2 {
+    font-size: 16px;
+    line-height: 41px;
+    color: #171E25;
+    padding: 0 0 0 0;
+}
 
 .opp__img2 {
     position: absolute;
-    left: 545px;
+    left: 24px;
     right: 58.9%;
     top: 26%;
     bottom: 75.06%;
@@ -398,21 +432,68 @@ nav {
     border-radius: 20px;
 }
 
-.opp__column3 {}
+.opp__column3 {
+    position: absolute;
+    left: 942px;
+    top: 1938px;
+}
 
-.oop__title3 {}
+.oop__title3 {
+    font-size: 16px;
+    line-height: 41px;
+    color: #171E25;
+    padding: 0 0 0 0;
+}
 
-.opp__img3 {}
+.opp__img3 {
+    position: absolute;
+    left: 23px;
+    right: 31.18%;
+    top: 31%;
+    bottom: 75.07%;
 
-.opp__blacksq3 {}
+}
 
-.opp__column4 {}
+.opp__blacksq3 {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    left: 942px;
+    top: 1848px;
+    background: #1A1A27;
+    border-radius: 20px;
+}
 
-.oop__title4 {}
+.opp__column4 {
+    position: absolute;
+    left: 144px;
+    top: 2198px;
+}
 
-.opp__img4 {}
+.oop__title4 {
+    font-size: 16px;
+    line-height: 41px;
+    color: #171E25;
+    padding: 0 0 0 0;
+}
 
-.opp__blacksq4 {}
+.opp__img4 {
+    position: absolute;
+    left: 30%;
+    right: 86.6%;
+    top: 30%;
+    bottom: 75.07%;
+}
+
+.opp__blacksq4 {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    left: 144px;
+    top: 2108px;
+    background: #1A1A27;
+    border-radius: 20px;
+}
 
 .opp__column5 {
     position: absolute;
@@ -429,16 +510,130 @@ nav {
 
 }
 
-.oop__title5 {}
+.oop__title5 {
+    font-size: 16px;
+    line-height: 41px;
+    color: #171E25;
+    padding: 0 0 0 0;
+}
 
-.opp__img5 {}
+.opp__img5 {
+    position: absolute;
+    left: 30%;
+    right: 86.6%;
+    top: 37%;
+    bottom: 75.07%;
+}
 
-.opp__blacksq5 {}
+.opp__blacksq5 {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    left: 545px;
+    top: 2108px;
+    background: #1A1A27;
+    border-radius: 20px;
+}
 
-.opp__column6 {}
+.opp__column6 {
+    position: absolute;
+    left: 942px;
+    top: 2198px;
+}
 
-.oop__title6 {}
+.oop__title6 {
+    font-size: 16px;
+    line-height: 41px;
+    color: #171E25;
+    padding: 0 0 0 0;
+}
 
-.opp__img6 {}
+.opp__img6 {
+    position: absolute;
+    left: 30%;
+    right: 86.6%;
+    top: 30%;
+    bottom: 75.07%;
+}
 
-.opp__blacksq6 {}
+.opp__blacksq6 {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    left: 942px;
+    top: 2108px;
+    background: #1A1A27;
+    border-radius: 20px;
+}
+
+.opp__app {
+    position: absolute;
+}
+
+.app__img1 {
+    position: absolute;
+    width: 261px;
+    height: 526px;
+    left: 144px;
+    top: 1342px;
+}
+
+.app__img2 {
+    position: absolute;
+    width: 261px;
+    height: 526px;
+    left: 445px;
+    top: 1342px;
+}
+
+.app__img3 {
+    position: absolute;
+    width: 261px;
+    height: 526px;
+    left: 737px;
+    top: 1342px;
+}
+
+.app__img4 {
+    position: absolute;
+    width: 261px;
+    height: 526px;
+    left: 1037px;
+    top: 1342px;
+}
+
+/*Блок возможностей конец*/
+
+/* Блок цитаты */
+
+.quote {
+    position: absolute;
+    width: 1440px;
+    height: 859px;
+    left: 0px;
+    top: 3027px;
+    background: #1A1A27;
+    border-radius: 20px;
+}
+
+.quote__div {
+    width: 1208;
+    height: 148;
+    text-align: center;
+    margin-top: 90px;
+}
+
+.quote__text {
+    width: 1208px;
+    height: 148px;
+    left: 116px;
+    top: 3117px;
+    font-size: 60px;
+    line-height: 74px;
+    text-align: center;
+    color: #FAFAFA;
+}
+
+.quote-yellow {
+    color: #B0B0B0;
+}
