@@ -602,6 +602,22 @@ nav {
     top: 1342px;
 }
 
+.opp__shape-left {
+    position: absolute;
+    width: 261px;
+    height: 526px;
+    left: 50px;
+    top: 2667px;
+}
+
+.opp__shape-right {
+    position: absolute;
+    width: 261px;
+    height: 526px;
+    left: 1383 px;
+    top: 2667px;
+}
+
 /*Блок возможностей конец*/
 
 /* Блок цитаты */
@@ -617,21 +633,19 @@ nav {
 }
 
 .quote__div {
-    width: 1208;
-    height: 148;
-    text-align: center;
-    margin-top: 90px;
+    width: 1208px;
+    height: 148px;
+    margin: 90px 116px;
 }
 
 .quote__text {
     width: 1208px;
     height: 148px;
-    left: 116px;
-    top: 3117px;
     font-size: 60px;
     line-height: 74px;
     text-align: center;
     color: #FAFAFA;
+    margin: 0;
 }
 
 .quote-yellow {
